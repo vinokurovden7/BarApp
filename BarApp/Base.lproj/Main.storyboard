@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BarApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0b0-Zf-cK6">
+                                <rect key="frame" x="20" y="124" width="374" height="190"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uxc-N2-Xwy">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="190"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heineken" translatesAutoresizingMaskIntoConstraints="NO" id="OsK-My-R0h">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="4WN-OY-T6P"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heineken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zJj-9h-zFy">
+                                                <rect key="frame" x="0.0" y="70" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="yjR-Fy-UEa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Нидерланды)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ed0-PV-xvq">
+                                                <rect key="frame" x="0.0" y="100" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Kyt-jy-VvY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 ₽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5ZS-wy-jGz">
+                                                <rect key="frame" x="0.0" y="130" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Koz-2J-0oN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="52r-ru-Qyv">
+                                                <rect key="frame" x="0.0" y="160" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="MHh-rt-4j9"/>
+                                                </constraints>
+                                                <string key="text">Остаток: 
+10л</string>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JRd-J0-nZW">
+                                        <rect key="frame" x="98.666666666666686" y="0.0" width="78.333333333333314" height="190"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bud" translatesAutoresizingMaskIntoConstraints="NO" id="Pim-Co-KGL">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="5xP-ud-hjt"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bud" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QeX-ms-XiK">
+                                                <rect key="frame" x="0.0" y="70" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="sMm-kS-M9I"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Чехия)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TR3-Fs-8ch">
+                                                <rect key="frame" x="0.0" y="100" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="tva-Z4-GlP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 ₽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cFq-we-GcU">
+                                                <rect key="frame" x="0.0" y="130" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="cTs-IG-qVd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zzF-XQ-MTh">
+                                                <rect key="frame" x="0.0" y="160" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="3es-vj-RyP"/>
+                                                </constraints>
+                                                <string key="text">Остаток: 
+5л</string>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="duu-mS-tPT">
+                                        <rect key="frame" x="197" y="0.0" width="78.666666666666686" height="190"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stellaArtois" translatesAutoresizingMaskIntoConstraints="NO" id="6Eg-CK-wPC">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="AgP-5g-9vK"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stella Artois" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e9l-PA-xlC">
+                                                <rect key="frame" x="0.0" y="70" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="3Fa-e6-9UG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Великобритания)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DZh-WO-01O">
+                                                <rect key="frame" x="0.0" y="100" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="BYI-8O-UAC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 ₽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7ee-Q4-ciu">
+                                                <rect key="frame" x="0.0" y="130" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="FI5-fQ-xwD"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AcK-Oy-osP">
+                                                <rect key="frame" x="0.0" y="160" width="78.666666666666671" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="jej-as-ceb"/>
+                                                </constraints>
+                                                <string key="text">Остаток: 
+100л</string>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4YN-Ks-Azd">
+                                        <rect key="frame" x="295.66666666666669" y="0.0" width="78.333333333333314" height="190"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baltika" translatesAutoresizingMaskIntoConstraints="NO" id="vg0-BS-kYS">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="daQ-Ve-ht2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Балтика" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tsZ-ft-Ebp">
+                                                <rect key="frame" x="0.0" y="70" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Gcz-po-Dgn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Россия)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wJg-5u-HgS">
+                                                <rect key="frame" x="0.0" y="100" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="YZN-9Z-PB1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 ₽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="krz-OU-4Lk">
+                                                <rect key="frame" x="0.0" y="130" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="76h-8p-2xI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qL4-9c-3Z1">
+                                                <rect key="frame" x="0.0" y="160" width="78.333333333333329" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="MRP-2R-QaN"/>
+                                                </constraints>
+                                                <string key="text">Остаток: 
+100л</string>
+                                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beer Pub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8aL-dy-H7g">
+                                <rect key="frame" x="20" y="20" width="208" height="84"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="72"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-kg-4DC">
+                                <rect key="frame" x="354" y="32" width="40" height="40"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="dcJ-FR-MTW"/>
+                                    <constraint firstAttribute="height" constant="40" id="xGM-HL-cqf"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="play.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="27"/>
+                                </state>
+                                <connections>
+                                    <action selector="startStopShiftButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ume-Um-BgR"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6GE-fb-OaI">
+                                <rect key="frame" x="20" y="354" width="374" height="34"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="литры" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qL1-uY-SzF">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="литры" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7QK-5a-R5W">
+                                        <rect key="frame" x="98.666666666666686" y="0.0" width="78.333333333333314" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="литры" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JWh-Hb-K5D">
+                                        <rect key="frame" x="197" y="0.0" width="78.666666666666686" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="литры" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X1M-Mt-j4h">
+                                        <rect key="frame" x="295.66666666666669" y="0.0" width="78.333333333333314" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcm-ht-5N3">
+                                <rect key="frame" x="162" y="448" width="90" height="36"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="pd3-og-eLW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Продать"/>
+                                <connections>
+                                    <action selector="sellButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7b-d7-5rf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выручка: 800 ₽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3f-SA-9X2">
+                                <rect key="frame" x="20" y="524" width="128" height="24"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al4-cs-PS8">
+                                <rect key="frame" x="20" y="556" width="175" height="36"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="175" id="b5C-32-Gaq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Обнулить выручку"/>
+                                <connections>
+                                    <action selector="clearBeerRevenueButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qwb-Qh-bIt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.12548857930000001" green="0.12548908589999999" blue="0.12549024819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="8aL-dy-H7g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="1gb-fF-q94"/>
+                            <constraint firstItem="O3f-SA-9X2" firstAttribute="top" secondItem="dcm-ht-5N3" secondAttribute="bottom" constant="40" id="83Z-h0-YrE"/>
+                            <constraint firstItem="0b0-Zf-cK6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8LS-Xb-eM3"/>
+                            <constraint firstItem="dcm-ht-5N3" firstAttribute="top" secondItem="6GE-fb-OaI" secondAttribute="bottom" constant="60" id="8hM-I6-xpw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6GE-fb-OaI" secondAttribute="trailing" constant="20" id="BfM-s6-KmG"/>
+                            <constraint firstItem="6GE-fb-OaI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EgC-4F-gbY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="O3f-SA-9X2" secondAttribute="trailing" constant="20" id="ItG-Bk-jgg"/>
+                            <constraint firstItem="dcm-ht-5N3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JFK-40-58I"/>
+                            <constraint firstItem="al4-cs-PS8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Jsl-il-ybP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0b0-Zf-cK6" secondAttribute="trailing" constant="20" id="QYd-3a-bam"/>
+                            <constraint firstItem="y9Q-kg-4DC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8aL-dy-H7g" secondAttribute="trailing" constant="20" id="Rhc-9w-bNf"/>
+                            <constraint firstItem="0b0-Zf-cK6" firstAttribute="top" secondItem="8aL-dy-H7g" secondAttribute="bottom" constant="20" id="T6m-rU-Rto"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="al4-cs-PS8" secondAttribute="trailing" constant="20" id="Ueh-lh-eYT"/>
+                            <constraint firstItem="al4-cs-PS8" firstAttribute="top" secondItem="O3f-SA-9X2" secondAttribute="bottom" constant="8" symbolic="YES" id="aYp-dM-P6I"/>
+                            <constraint firstItem="y9Q-kg-4DC" firstAttribute="centerY" secondItem="8aL-dy-H7g" secondAttribute="centerY" constant="-10" id="eQ3-C6-bfu"/>
+                            <constraint firstItem="6GE-fb-OaI" firstAttribute="top" secondItem="0b0-Zf-cK6" secondAttribute="bottom" constant="40" id="edh-Jc-nOr"/>
+                            <constraint firstItem="8aL-dy-H7g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iK9-l5-Vpa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y9Q-kg-4DC" secondAttribute="trailing" constant="20" id="mMB-kr-dY8"/>
+                            <constraint firstItem="O3f-SA-9X2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ocM-QX-17W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beerRevenueLabel" destination="O3f-SA-9X2" id="KYG-PZ-hMY"/>
+                        <outlet property="clearBeerRevenueButton" destination="al4-cs-PS8" id="h0k-Qc-F6K"/>
+                        <outlet property="countLitersFirstBeer" destination="qL1-uY-SzF" id="6C4-RM-ooy"/>
+                        <outlet property="countLitersFourBeer" destination="X1M-Mt-j4h" id="s2N-k0-Mf6"/>
+                        <outlet property="countLitersSecondBeer" destination="7QK-5a-R5W" id="G1O-iu-3Nn"/>
+                        <outlet property="countLitersThirdBeer" destination="JWh-Hb-K5D" id="r7s-UL-VrO"/>
+                        <outlet property="countryFirstBeer" destination="Ed0-PV-xvq" id="7tH-K0-SMD"/>
+                        <outlet property="countryFourBeer" destination="wJg-5u-HgS" id="bkl-mM-t3k"/>
+                        <outlet property="countrySecondBeer" destination="TR3-Fs-8ch" id="gj0-x9-ALW"/>
+                        <outlet property="countryThirdBeer" destination="DZh-WO-01O" id="C5E-dO-6gg"/>
+                        <outlet property="imageFirstBeer" destination="OsK-My-R0h" id="1eA-LB-jYA"/>
+                        <outlet property="imageFourBeer" destination="vg0-BS-kYS" id="3Jo-qV-hYf"/>
+                        <outlet property="imageSecondBeer" destination="Pim-Co-KGL" id="lhe-Ku-7gn"/>
+                        <outlet property="imageThirdBeer" destination="6Eg-CK-wPC" id="6Kf-EK-GlM"/>
+                        <outlet property="nameFirstBeer" destination="zJj-9h-zFy" id="XCq-Bj-jJ3"/>
+                        <outlet property="nameFourBeer" destination="tsZ-ft-Ebp" id="Qkh-zA-4lw"/>
+                        <outlet property="nameSecondBeer" destination="QeX-ms-XiK" id="sLZ-hQ-O59"/>
+                        <outlet property="nameThirdBeer" destination="e9l-PA-xlC" id="mkE-qQ-fy5"/>
+                        <outlet property="priceFirstBeer" destination="5ZS-wy-jGz" id="vlN-zb-2Ie"/>
+                        <outlet property="priceFourBeer" destination="krz-OU-4Lk" id="lAa-Q0-JCw"/>
+                        <outlet property="priceSecondBeer" destination="cFq-we-GcU" id="yFh-AG-lUF"/>
+                        <outlet property="priceThirdBeer" destination="7ee-Q4-ciu" id="8Ka-37-Urd"/>
+                        <outlet property="remainingFirstBeer" destination="52r-ru-Qyv" id="Dcv-jw-Vda"/>
+                        <outlet property="remainingFourBeer" destination="qL4-9c-3Z1" id="tbJ-pl-1qO"/>
+                        <outlet property="remainingSecondBeer" destination="zzF-XQ-MTh" id="FLr-fM-CAQ"/>
+                        <outlet property="remainingThirdBeer" destination="AcK-Oy-osP" id="eEQ-ao-qjx"/>
+                        <outlet property="sellButton" destination="dcm-ht-5N3" id="ofi-nB-GRT"/>
+                        <outlet property="startStopButtonShift" destination="y9Q-kg-4DC" id="J9k-sO-1uf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="113.31521739130436"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="baltika" width="533.33331298828125" height="286"/>
+        <image name="bud" width="122.66666412353516" height="80.333335876464844"/>
+        <image name="heineken" width="185.33332824707031" height="137"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="stellaArtois" width="426.66665649414062" height="426.66665649414062"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
