@@ -8,13 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    //MARK: Переменные
-    private var startedShift = false
-    private var heinekenBeer: Beer?
-    private var budBeer: Beer?
-    private var stellaArtoisBeer: Beer?
-    private var baltikaBeer: Beer?
 
     //MARK: Элементы экрана:
     
@@ -61,6 +54,14 @@ class ViewController: UIViewController {
     
     // Выручка от продажи пива
     @IBOutlet weak var beerRevenueLabel: UILabel!
+    
+    //MARK: Переменные
+    
+    private var startedShift = false
+    private var heinekenBeer: Beer?
+    private var budBeer: Beer?
+    private var stellaArtoisBeer: Beer?
+    private var baltikaBeer: Beer?
     
     //MARK: Жизненный цикл:
     
